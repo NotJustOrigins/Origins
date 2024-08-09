@@ -1,0 +1,8 @@
+{
+    "order": 0,
+    "enabled": true,
+    "name": "Info",
+    "origins": [
+        "not_just_origins:info"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 600,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "not_just_origins:thrasher/bloodlust_resource",
+                "change": 1
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 200,
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "not_just_origins:thrasher/bloodlust_resource",
+                    "change": -1
+                }
+            }
+        ]
+    }
+}

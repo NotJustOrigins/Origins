@@ -1,0 +1,21 @@
+{
+    "impact": 2,
+    "unchoosable": false,
+    "name": "Forgotten",
+    "description": "Forgotten are the souls of past explorers, trapped in the overworld.",
+    "icon": "quark:forgotten_hat",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "not_just_origins:forgotten/burn_in_sunlight",
+        "not_just_origins:forgotten/undead",
+        "not_just_origins:forgotten/no_starvation",
+        "not_just_origins:forgotten/starting_equipment",
+        "not_just_origins:forgotten/blindness_arrow",
+        "not_just_origins:forgotten/weakness_above_y50",
+        "not_just_origins:forgotten/mineshaft_spawn",
+        "not_just_origins:forgotten/mob_ignore",
+        "not_just_origins:forgotten/increase_projectile_damage",
+        "not_just_origins:common/nightvision"
+    ]
+}

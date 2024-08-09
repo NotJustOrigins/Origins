@@ -1,0 +1,28 @@
+{
+    "impact": 3,
+    "unchoosable": false,
+    "name": "Thrasher",
+    "description": "Description",
+    "icon": "upgrade_aquatic:thrasher_tooth",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "not_just_origins:thrasher/shader",
+        "not_just_origins:thrasher/default_swim_speed",
+        "origins:air_from_potions",
+        "origins:water_breathing",
+        "origins:aquatic",
+        "origins:aqua_affinity",
+        "origins:like_water",
+        "not_just_origins:common/water_vision",
+        "not_just_origins:common/carnivore",
+        "not_just_origins:thrasher/debuff_out_water",
+        "not_just_origins:thrasher/deep_ocean_spawn",
+        "not_just_origins:thrasher/strength",
+        "not_just_origins:thrasher/bloodlust",
+        "not_just_origins:thrasher/bloodlust_resource",
+        "not_just_origins:thrasher/bloodlust_strength",
+        "not_just_origins:thrasher/bloodlust_entity_glow",
+        "not_just_origins:thrasher/bloodlust_swim_speed"
+    ]
+}

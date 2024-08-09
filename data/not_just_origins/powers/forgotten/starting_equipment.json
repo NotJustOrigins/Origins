@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:bow{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:arrow 16",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "replaceitem entity @s armor.head quark:forgotten_hat{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}",
+                "permission_level": 4
+            }
+        ]
+    },
+    "name": "Past Explorations",
+    "description": "As a forgotten, you always keep a bow and arrow, and your trusty explorers hat with you at all times."
+}

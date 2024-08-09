@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.max_health",
+        "value": 10,
+        "operation": "addition"
+    },
+    "name": "Hearty Body",
+    "description": "Your max health is increased by 5 hearts."
+}

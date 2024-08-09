@@ -1,0 +1,7 @@
+{
+    "type": "not_just_origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:snowy_tundra",
+    "name": "Cold",
+    "description": "You spawn in a tundra biome."
+}

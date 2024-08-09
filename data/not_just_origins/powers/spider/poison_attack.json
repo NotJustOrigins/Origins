@@ -1,0 +1,25 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:poison",
+            "amplifier": 2,
+            "duration": 100
+        }
+    },
+    "target_condition": {
+        "type": "origins:in_block_anywhere",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:cobwebs"
+        },
+        "comparison": ">=",
+        "compare_to": 1
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false,
+        "bar_index": 5
+    }
+}

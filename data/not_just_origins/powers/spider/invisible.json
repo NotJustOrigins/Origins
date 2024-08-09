@@ -1,0 +1,48 @@
+{
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 10,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        }
+    },
+    "is_in_web": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:in_block_anywhere",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "origins:cobwebs"
+                },
+                "comparison": ">=",
+                "compare_to": 1
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "not_just_origins:spider/invisible_resource",
+                "change": 1
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "not_just_origins:spider/invisible_resource",
+                "change": -10
+            }
+        },
+        "interval": 10
+    },
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "not_just_origins:spider/invisible_resource",
+            "comparison": "==",
+            "compare_to": 10
+        }
+    }
+}

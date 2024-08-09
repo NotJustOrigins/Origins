@@ -1,0 +1,49 @@
+{
+    "type": "origins:multiple",
+    "active": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+            "bar_index": 4
+        }
+    },
+    "check_brightness": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "not_just_origins:nightstalker/lowlight_active",
+            "change": 1
+        },
+        "falling_action": {
+            "type": "origins:change_resource",
+            "resource": "not_just_origins:nightstalker/lowlight_active",
+            "change": -1
+        },
+        "interval": 10,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:offset",
+                        "condition": {
+                            "type": "origins:light_level",
+                            "comparison": "<=",
+                            "compare_to": 7
+                        }
+                    }
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "not_just_origins:nightstalker/summon_aoe_resource",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "type": "not_just_origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "structure": "bettermineshafts:mineshaft"
+}

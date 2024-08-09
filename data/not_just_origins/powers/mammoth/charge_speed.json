@@ -1,0 +1,26 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+        "effect": "minecraft:speed",
+        "amplifier": 3,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "==",
+                "resource": "not_just_origins:mammoth/charge_resource",
+                "compare_to": 1
+            }
+        ]
+    },
+    "hidden": true
+}

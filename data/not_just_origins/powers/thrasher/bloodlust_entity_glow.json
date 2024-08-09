@@ -1,0 +1,15 @@
+{
+    "type": "origins:entity_glow",
+    "entity_condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "condition": {
+        "type": "origins:resource",
+        "inverted": false,
+        "comparison": "==",
+        "resource": "not_just_origins:thrasher/bloodlust_resource",
+        "compare_to": 1
+    },
+    "hidden": true
+}

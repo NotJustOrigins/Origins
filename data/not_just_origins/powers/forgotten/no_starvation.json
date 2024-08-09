@@ -1,0 +1,14 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -1
+    },
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": "<=",
+        "compare_to": 7
+    },
+    "name": "Undead Fortitude",
+    "description": "You can't drop below 3.5 hunger."
+}

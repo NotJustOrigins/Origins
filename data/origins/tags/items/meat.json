@@ -1,0 +1,31 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:fishes",
+        "aquaculture:fish_fillet_raw",
+        "aquaculture:fish_fillet_cooked",
+        "quark:cooked_crab_leg",
+        "quark:crab_leg",
+        "quark:golden_frog_leg",
+        "quark:cooked_frog_leg",
+        "quark:frog_leg",
+        "autumnity:cooked_turkey_piece",
+        "autumnity:turkey_piece",
+        "autumnity:cooked_turkey",
+        "autumnity:turkey",
+        "upgrade_aquatic:cooked_perch",
+        "upgrade_aquatic:perch",
+        "upgrade_aquatic:cooked_lionfish",
+        "upgrade_aquatic:lionfish",
+        "upgrade_aquatic:cooked_pike",
+        "upgrade_aquatic:pike",
+        "buzzier_bees:glazed_porkchop",
+        "environmental:scrambled_eggs",
+        "environmental:fried_egg",
+        "environmental:cooked_duck",
+        "environmental:duck",
+        "environmental:koi",
+        "environmental:cooked_venison",
+        "environmental:venison"
+    ]
+}

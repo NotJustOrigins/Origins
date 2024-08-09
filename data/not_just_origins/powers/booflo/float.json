@@ -1,0 +1,123 @@
+{
+    "type": "origins:multiple",
+    "levitate": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 20,
+        "effect": {
+            "effect": "minecraft:levitation",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:resource",
+            "comparison": "==",
+            "resource": "not_just_origins:booflo/float_resource",
+            "compare_to": 1
+        },
+        "hidden": true
+    },
+    "slowfall": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 20,
+        "effect": {
+            "effect": "minecraft:slow_falling",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:resource",
+            "comparison": "==",
+            "resource": "not_just_origins:booflo/float_resource",
+            "compare_to": 0
+        },
+        "hidden": true
+    },
+    "projectile_fall": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "not_just_origins:booflo/float_resource",
+                    "change": 10
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 100,
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "not_just_origins:booflo/float_resource",
+                        "change": -10
+                    }
+                }
+            ]
+        },
+        "damage_condition": {
+            "type": "origins:projectile"
+        },
+        "cooldown": 500
+    },
+    "toggle": {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "comparison": "==",
+                "resource": "not_just_origins:booflo/float_resource",
+                "compare_to": 1
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "not_just_origins:booflo/float_resource",
+                "change": -1
+            },
+            "else_action": {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "comparison": "==",
+                    "resource": "not_just_origins:booflo/float_resource",
+                    "compare_to": 0
+                },
+                "if_action": {
+                    "type": "origins:change_resource",
+                    "resource": "not_just_origins:booflo/float_resource",
+                    "change": 1
+                }
+            }
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "reset": {
+        "type": "origins:action_on_callback",
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "not_just_origins:booflo/float_resource",
+            "change": -10
+        }
+    },
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 2,
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "hidden": true
+    }
+}

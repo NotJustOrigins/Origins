@@ -1,0 +1,23 @@
+{
+    "impact": 2,
+    "unchoosable": false,
+    "name": "Nightstalker",
+    "description": "Nightstalker Description",
+    "icon": "quark:black_crystal",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "not_just_origins:nightstalker/debuff_in_light",
+        "not_just_origins:nightstalker/ethereal_spawn",
+        "not_just_origins:nightstalker/buffs_in_darkness",
+        "not_just_origins:nightstalker/toggle_nightvision",
+        "not_just_origins:nightstalker/slowness",
+        "not_just_origins:nightstalker/invisibility",
+        "not_just_origins:nightstalker/entity_glow",
+        "not_just_origins:nightstalker/lowlight",
+        "not_just_origins:nightstalker/translucent",
+        "not_just_origins:nightstalker/immunity",
+        "not_just_origins:nightstalker/summon_aoe",
+        "not_just_origins:nightstalker/ether_food"
+    ]
+}

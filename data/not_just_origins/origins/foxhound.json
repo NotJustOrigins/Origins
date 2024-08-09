@@ -1,0 +1,19 @@
+{
+    "impact": 1,
+    "unchoosable": false,
+    "name": "Foxhound",
+    "description": "Foxhound Description",
+    "icon": "minecraft:soul_campfire",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "origins:fragile",
+        "origins:fire_immunity",
+        "origins:flame_particles",
+        "not_just_origins:common/nether_spawn",
+        "not_just_origins:foxhound/fire_aspect",
+        "not_just_origins:foxhound/magma_saturation",
+        "not_just_origins:foxhound/reduced_size",
+        "not_just_origins:foxhound/speed_near_players"
+    ]
+}

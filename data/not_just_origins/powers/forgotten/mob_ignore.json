@@ -1,0 +1,6 @@
+{
+    "type": "not_just_origins:mobs_ignore",
+    "mobs":  [
+      "minecraft:skeleton"
+    ]
+}

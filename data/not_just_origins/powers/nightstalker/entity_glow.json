@@ -1,0 +1,24 @@
+{
+    "type": "origins:entity_glow",
+    "entity_condition": {
+        "type": "origins:exposed_to_sky"
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "not_just_origins:nightstalker/lowlight_active",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            {
+                "type": "origins:daytime",
+                "inverted": true
+            },
+            {
+                "type": "origins:exposed_to_sky"
+            }
+        ]
+    }
+}

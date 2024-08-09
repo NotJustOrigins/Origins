@@ -1,0 +1,7 @@
+{
+    "type": "not_just_origins:modify_player_spawn",
+    "dimension": "minecraft:the_end",
+    "biome": "byg:ethereal_islands",
+    "name": "Ethereal",
+    "description": "You spawn on an Ethereal Island in The End dimension."
+}

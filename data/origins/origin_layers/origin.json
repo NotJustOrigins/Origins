@@ -1,0 +1,17 @@
+{
+    "replace": true,
+    "origins": [
+        "not_just_origins:booflo",
+        "not_just_origins:forgotten",
+        "not_just_origins:thrasher",
+        "not_just_origins:foxhound",
+        "not_just_origins:mammoth",
+        "not_just_origins:triton",
+        "not_just_origins:turtle",
+        "not_just_origins:nightstalker",
+        "not_just_origins:spider"
+    ],
+    "auto_choose": false,
+    "allow_random": false,
+    "enabled": true
+}

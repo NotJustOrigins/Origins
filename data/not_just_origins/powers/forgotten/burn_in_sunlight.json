@@ -1,0 +1,10 @@
+{
+    "type": "origins:burn",
+    "interval": 20,
+    "burn_duration": 6,
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "name": "Sunlight Sensitivity",
+    "description": "As an undead you burn in sunlight, stick to the shadows or only venture out in the rain."
+}

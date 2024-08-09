@@ -1,0 +1,27 @@
+{
+    "impact": 1,
+    "unchoosable": false,
+    "name": "Black Widow",
+    "description": "Spider TBD Description",
+    "icon": "minecraft:cobweb",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "not_just_origins:spider/hearts",
+        "not_just_origins:spider/size",
+        "not_just_origins:spider/poison_attack",
+        "not_just_origins:spider/invisible",
+        "not_just_origins:spider/vamprism",
+        "not_just_origins:spider/climbing",
+        "not_just_origins:spider/attack_speed",
+        "not_just_origins:spider/mob_ignore",
+        "not_just_origins:spider/immunity",
+        "not_just_origins:common/nightvision",
+        "origins:arthropod",
+        "not_just_origins:common/carnivore",
+        "origins:master_of_webs_punch_through",
+        "origins:master_of_webs_sense",
+        "origins:master_of_webs_no_slowdown",
+        "origins:master_of_webs_web_crafting"
+    ]
+}

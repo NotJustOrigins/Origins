@@ -1,0 +1,22 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "z": 1,
+        "space": "local"
+    },
+    "cooldown": 200,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "hud_render": {
+        "should_render": true
+    },
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "name": "Dash",
+    "description": "You can dash forward in water every 3 seconds to catch up to prey or escape a predator."
+}

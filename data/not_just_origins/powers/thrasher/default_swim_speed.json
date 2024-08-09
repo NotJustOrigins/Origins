@@ -1,0 +1,17 @@
+{
+  "type": "origins:modify_swim_speed",
+  "modifier": {
+    "name": "Additional swim speed",
+    "value": 1.5,
+    "operation": "multiply_base"
+  },
+  "condition": {
+      "type": "origins:resource",
+      "inverted": true,
+      "comparison": "==",
+      "resource": "not_just_origins:thrasher/bloodlust_resource",
+      "compare_to": 1
+  },
+  "name": "Increased swim speed",
+  "description": "Description"
+}

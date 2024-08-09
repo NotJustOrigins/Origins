@@ -1,0 +1,7 @@
+{
+    "type": "not_just_origins:modify_player_spawn",
+    "dimension": "minecraft:the_end",
+    "biome": "endergetic:poise_forest",
+    "name": "Poised",
+    "description": "You spawn in a Poise Forest in The End dimension."
+}

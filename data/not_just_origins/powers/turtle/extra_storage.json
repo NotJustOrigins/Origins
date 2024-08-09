@@ -1,0 +1,7 @@
+{
+    "type": "origins:inventory",
+    "drop_on_death": true,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

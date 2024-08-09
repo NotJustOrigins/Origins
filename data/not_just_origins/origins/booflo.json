@@ -1,0 +1,20 @@
+{
+    "impact": 2,
+    "unchoosable": false,
+    "name": "Booflian",
+    "description": "Companions of the Booflo that have adapted to float throughout the dimensions.",
+    "icon": "endergetic:bolloom_fruit",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "not_just_origins:booflo/extra_hearts",
+        "not_just_origins:common/no_elytra",
+        "origins:light_armor",
+        "not_just_origins:booflo/bolloom_fruit",
+        "not_just_origins:booflo/less_saturation",
+        "not_just_origins:booflo/float",
+        "not_just_origins:booflo/boost",
+        "not_just_origins:booflo/poise_spawn",
+        "not_just_origins:booflo/water_walking"
+    ]
+}

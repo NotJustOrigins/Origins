@@ -1,0 +1,23 @@
+{
+    "type": "origins:multiple",
+    "no_wear": {
+        "type": "origins:restrict_armor",
+        "chest": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "forge:elytra"
+            }
+        },
+        "hidden": true
+    },
+    "no_equip": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "forge:elytra"
+            }
+        },
+        "hidden": true
+    }
+}

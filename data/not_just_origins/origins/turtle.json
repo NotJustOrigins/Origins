@@ -1,0 +1,24 @@
+{
+    "impact": 1,
+    "unchoosable": false,
+    "name": "Snapping Turtle",
+    "description": "Turtle Description",
+    "icon": "aquaculture:box_turtle",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "origins:aquatic",
+        "origins:aqua_affinity",
+        "not_just_origins:common/water_vision",
+        "not_just_origins:turtle/respiration_in_water",
+        "not_just_origins:turtle/increased_swim_speed",
+        "not_just_origins:common/beach_spawn",
+        "not_just_origins:turtle/extra_armor",
+        "not_just_origins:common/carnivore",
+        "not_just_origins:turtle/extra_storage",
+        "not_just_origins:turtle/decreased_walk_speed",
+        "not_just_origins:turtle/shell",
+        "not_just_origins:turtle/shell_buff",
+        "not_just_origins:turtle/shell_damage_stop"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+        "effect": "minecraft:strength",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "inverted": true,
+                "comparison": "==",
+                "resource": "not_just_origins:thrasher/bloodlust_resource",
+                "compare_to": 1
+            },
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            }
+        ]
+    },
+    "hidden": true
+}

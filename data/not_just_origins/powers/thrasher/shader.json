@@ -1,0 +1,7 @@
+{
+    "type": "origins:shader",
+    "shader": "minecraft:shaders/post/sobel.json",
+    "name": "Sonar",
+    "description": "You view the world through sonar. Textures become difficult to differentiate.",
+    "hidden": true
+}

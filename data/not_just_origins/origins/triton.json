@@ -1,0 +1,22 @@
+{
+    "impact": 1,
+    "unchoosable": false,
+    "name": "Triton",
+    "description": "Triton Description",
+    "icon": "minecraft:trident",
+    "order": 4,
+    "upgrades": [],
+    "powers": [
+        "origins:air_from_potions",
+        "origins:water_breathing",
+        "origins:aquatic",
+        "origins:aqua_affinity",
+        "origins:like_water",
+        "not_just_origins:common/water_vision",
+        "not_just_origins:triton/respiration_out_water",
+        "not_just_origins:triton/trident_recipe",
+        "not_just_origins:common/beach_spawn",
+        "not_just_origins:triton/dash",
+        "not_just_origins:triton/default_swim_speed"
+    ]
+}

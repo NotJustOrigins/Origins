@@ -1,0 +1,8 @@
+{
+    "type": "not_just_origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:deep_ocean",
+
+    "name": "Deep Ocean Spawn",
+    "description": "Description"
+}

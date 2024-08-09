@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "not_just_origins:turtle/shell"
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -1
+    }
+}

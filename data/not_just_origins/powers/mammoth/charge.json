@@ -1,0 +1,36 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 300,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "not_just_origins:mammoth/charge_resource",
+                "change": 1
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 100,
+                "action": {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:resource",
+                        "comparison": "==",
+                        "resource": "not_just_origins:mammoth/charge_resource",
+                        "compare_to": 1
+                    },
+                    "if_action": {
+                        "type": "origins:change_resource",
+                        "resource": "not_just_origins:mammoth/charge_resource",
+                        "change": -1
+                    }
+                }
+            }
+        ]
+    }
+}
