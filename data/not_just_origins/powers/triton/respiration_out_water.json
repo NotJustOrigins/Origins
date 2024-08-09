@@ -1,8 +1,8 @@
 {
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 2400,
+    "max_stacks": 120,
+    "duration_per_stack": 10,
     "effects": [
         {
             "effect": "minecraft:water_breathing",
@@ -15,6 +15,6 @@
         "type": "origins:submerged_in",
         "fluid": "minecraft:water"
     },
-    "name": "Respiration",
-    "description": "Breathe out of water"
+    "name": "Amphibious",
+    "description": "You can hold your breath when out of water. Staying in water recharges this ability."
 }

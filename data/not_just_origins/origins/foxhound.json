@@ -2,7 +2,7 @@
     "impact": 1,
     "unchoosable": false,
     "name": "Foxhound",
-    "description": "Foxhound Description",
+    "description": "These canines adapted to life in the Nether by developing fire immunity and a love for magma.",
     "icon": "minecraft:soul_campfire",
     "order": 4,
     "upgrades": [],

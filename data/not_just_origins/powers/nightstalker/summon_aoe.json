@@ -1,5 +1,7 @@
 {
     "type": "origins:multiple",
+    "name": "Beckoning Darkness",
+    "description": "You can summon a fog of darkness that withers, blinds and slows enemies around you.",
     "resource": {
         "type": "origins:resource",
         "min": 0,

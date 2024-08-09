@@ -4,5 +4,7 @@
         "attribute": "minecraft:generic.max_health",
         "value": -10,
         "operation": "addition"
-    }
+    },
+    "name": "Glass Cannon",
+    "description": "You have 5 hearts of health."
 }

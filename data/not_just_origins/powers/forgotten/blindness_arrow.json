@@ -6,7 +6,7 @@
     "hud_render": {
         "should_render": true
     },
-    "tag": "{pickup:0b,damage:4d,CustomPotionEffects:[{Id:15b,Amplifier:1b,Duration:60,ShowParticles:1b}]}",
+    "tag": "{pickup:0b,damage:2d,CustomPotionEffects:[{Id:15b,Amplifier:1b,Duration:60,ShowParticles:1b}]}",
     "name": "Curse of Blindness",
     "description": "Once every 10 seconds you can shoot an arrow of blindness wherever you're looking."
 }

@@ -7,8 +7,7 @@
             "ingredient": {
                 "tag": "forge:elytra"
             }
-        },
-        "hidden": true
+        }
     },
     "no_equip": {
         "type": "origins:prevent_item_use",
@@ -17,7 +16,7 @@
             "ingredient": {
                 "tag": "forge:elytra"
             }
-        },
-        "hidden": true
-    }
+        }
+    },
+    "hidden": true
 }

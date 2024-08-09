@@ -3,5 +3,7 @@
     "drop_on_death": true,
     "key": {
         "key": "key.origins.secondary_active"
-    }
+    },
+    "name": "Prison Pocket",
+    "description": "You can store 9 extra stacks inside your shell. These drop on death."
 }

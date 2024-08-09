@@ -1,5 +1,7 @@
 {
     "type": "not_just_origins:modify_player_spawn",
     "dimension": "minecraft:overworld",
-    "structure": "bettermineshafts:mineshaft"
+    "structure": "bettermineshafts:mineshaft",
+    "name": "Mineshaft Spawn",
+    "description": "You spawn in a Mineshaft"
 }

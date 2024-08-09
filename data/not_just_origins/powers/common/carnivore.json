@@ -29,5 +29,7 @@
           "inverted": true
         }
       ]
-    }
+    },
+    "name": "Carnivore",
+    "description": "You can only eat meat."
   }

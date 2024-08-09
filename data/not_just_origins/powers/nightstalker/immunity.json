@@ -10,5 +10,6 @@
         "resource": "not_just_origins:nightstalker/summon_aoe_resource",
         "comparison": "==",
         "compare_to": 1
-    }
+    },
+    "hidden": true
 }

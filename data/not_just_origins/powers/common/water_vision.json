@@ -4,5 +4,7 @@
   "condition": {
       "type": "origins:submerged_in",
       "fluid": "minecraft:water"
-  }
+  },
+  "name": "Wet Eyes",
+  "description": "Your vision underwater is perfect."
 }

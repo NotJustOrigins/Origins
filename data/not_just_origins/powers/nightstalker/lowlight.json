@@ -1,5 +1,7 @@
 {
     "type": "origins:multiple",
+    "name": "Lowlight",
+    "description": "When in an area with a light level of less than 7 you're classified as being in lowlight.",
     "active": {
         "type": "origins:resource",
         "min": 0,

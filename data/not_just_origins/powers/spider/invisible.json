@@ -44,5 +44,7 @@
             "comparison": "==",
             "compare_to": 10
         }
-    }
+    },
+    "name": "Imperceptible",
+    "description": "When sitting in cobwebs for longer than 5 seconds, you turn invisible."
 }

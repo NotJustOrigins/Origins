@@ -1,4 +1,6 @@
 {
     "type": "not_just_origins:mobs_ignore",
-    "group": "arthropod"
+    "group": "arthropod",
+    "name": "Arthropod Family",
+    "description": "As an arthropod you will not be attacked by other arthropods."
 }

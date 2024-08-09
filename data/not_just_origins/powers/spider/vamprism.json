@@ -49,5 +49,7 @@
             "compare_to": 1
         },
         "cooldown": 1
-    }
+    },
+    "name": "Vamprism",
+    "description": "Your primary ability allows you to siphon health off your targets for 5 seconds."
 }

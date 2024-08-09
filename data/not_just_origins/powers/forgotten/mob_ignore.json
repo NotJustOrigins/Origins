@@ -1,6 +1,10 @@
 {
     "type": "not_just_origins:mobs_ignore",
     "mobs":  [
-      "minecraft:skeleton"
-    ]
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "quark:forgotten"
+    ],
+    "name": "The Dead Rise Together",
+    "description": "Skeletons, Strays and Forgotten will not target you."
 }

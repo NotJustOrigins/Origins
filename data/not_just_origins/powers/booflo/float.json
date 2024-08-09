@@ -1,5 +1,7 @@
 {
     "type": "origins:multiple",
+    "name": "Float",
+    "description": "You can switch between slowfalling and levitation using your primary active.",
     "levitate": {
         "type": "origins:stacking_status_effect",
         "min_stacks": 0,

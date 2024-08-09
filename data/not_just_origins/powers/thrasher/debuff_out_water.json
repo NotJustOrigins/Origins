@@ -30,6 +30,6 @@
         "fluid": "minecraft:water",
         "inverted": true
     },
-    "name": "Debuff",
-    "description": "Weakness, Slowness, Blindness"
+    "name": "Water-Dependency",
+    "description": "When out of water, you are blind, weak and slow."
 }

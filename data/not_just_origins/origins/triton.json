@@ -2,7 +2,7 @@
     "impact": 1,
     "unchoosable": false,
     "name": "Triton",
-    "description": "Triton Description",
+    "description": "Descended from the ancient Atlanteans, Tritons have fully embraced the ocean.",
     "icon": "minecraft:trident",
     "order": 4,
     "upgrades": [],

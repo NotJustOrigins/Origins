@@ -12,6 +12,6 @@
       "resource": "not_just_origins:thrasher/bloodlust_resource",
       "compare_to": 1
   },
-  "name": "Increased swim speed",
-  "description": "Description"
+  "name": "Fins",
+  "description": "Your underwater speed is increased."
 }

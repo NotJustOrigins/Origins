@@ -1,5 +1,7 @@
 {
     "type": "origins:active_self",
+    "name": "Bloodlust",
+    "description": "When you enter a bloodlust you move faster, deal more damage and sense all entities around you.",
     "cooldown": 600,
     "hud_render": {
         "should_render": true,

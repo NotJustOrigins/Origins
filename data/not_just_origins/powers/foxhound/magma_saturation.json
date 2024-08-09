@@ -1,23 +1,39 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 20,
-    "effects": [
-        {
-            "effect": "minecraft:saturation",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": true
-        }
-    ],
-    "condition": {
-        "type": "origins:on_block",
-        "block_condition": {
-            "type": "origins:block",
-            "block": "minecraft:magma_block"
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:food_level",
+            "comparison": "==",
+            "compare_to": 20
+        },
+        "if_action": {
+            "type": "origins:feed",
+            "saturation": 1,
+            "food": 1
+        },
+        "else_action": {
+            "type": "origins:feed",
+            "saturation": 0,
+            "food": 1
         }
     },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:on_block",
+                "block_condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:magma_block"
+                }
+            },
+            {
+                "type": "origins:sneaking"
+            }
+        ]
+    },
     "name": "Cosy Place",
-    "description": "When sat on a magma block you gain saturation."
+    "description": "When sat on a magma block recover food and saturation."
 }

@@ -2,7 +2,7 @@
     "impact": 1,
     "unchoosable": false,
     "name": "Snapping Turtle",
-    "description": "Turtle Description",
+    "description": "",
     "icon": "aquaculture:box_turtle",
     "order": 4,
     "upgrades": [],

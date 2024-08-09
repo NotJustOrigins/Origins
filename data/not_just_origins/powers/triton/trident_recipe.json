@@ -20,5 +20,7 @@
             "item": "minecraft:trident",
             "count": 1
         }
-    }
+    },
+    "name": "Atlantean",
+    "description": "You can craft tridents using Thrasher teeth."
 }

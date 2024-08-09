@@ -3,5 +3,6 @@
     "red": 0.15,
     "green": 0.15,
     "blue": 0.15,
-    "alpha": 0.8
+    "alpha": 0.8,
+    "hidden": true
 }

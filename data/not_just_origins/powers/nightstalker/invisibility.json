@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
     "name": "Invisibility",
-    "description": "Less than light level 7 and wearing less than chainmail",
+    "description": "When in lowlight you turn invisible.",
     "invisibility": {
         "type": "origins:invisibility",
         "render_armor": true,

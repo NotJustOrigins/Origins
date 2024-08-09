@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
-    "name": "Debuff in Light",
-    "description": "Weakness 1, Mining Fatigue 1 and 20% more damage taken in light level 7+",
+    "name": "Photosensitivity",
+    "description": "When out of lowlight you gain Weakness II, Mining Fatigue and take 20% more damage.",
     "debuffs": {
         "type": "origins:stacking_status_effect",
         "min_stacks": 0,
@@ -33,7 +33,7 @@
         "type": "origins:modify_damage_taken",
         "modifier": {
             "operation": "multiply_total",
-            "value": 1.2
+            "value": 0.2
         },
         "condition": {
             "type": "origins:resource",

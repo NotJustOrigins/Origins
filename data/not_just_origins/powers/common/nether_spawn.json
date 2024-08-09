@@ -1,4 +1,6 @@
 {
     "type": "not_just_origins:modify_player_spawn",
-    "dimension": "minecraft:the_nether"
+    "dimension": "minecraft:the_nether",
+    "name": "Nether Inhabitant",
+    "description": "Your natural spawn will be in the Nether."
 }

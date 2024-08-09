@@ -1,19 +1,14 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 20,
-    "effects": [
-        {
-            "effect": "minecraft:speed",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": false
-        }
-    ],
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_total",
+        "value": 0.2
+    },
+    "tick_rate": 10,
     "condition": {
         "type": "origins:command",
-        "command": "execute if entity @p[distance=1..15]",
+        "command": "execute if entity @p[gamemode=survival,distance=1..15]",
         "comparison": "==",
         "compare_to": 1
     },

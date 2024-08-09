@@ -3,12 +3,12 @@
     "food_modifier": {
         "name": "Increased food points",
         "operation": "multiply_total",
-        "value": 0.5
+        "value": -0.5
     },
     "saturation_modifier": {
         "name": "Increased saturation points",
         "operation": "multiply_total",
-        "value": 0.5
+        "value": -0.5
     },
     "name": "Picky Eater",
     "description": "Bolloom Fruit is more nutritious to you, but other foods are less satisfying."

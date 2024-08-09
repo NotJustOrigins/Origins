@@ -1,10 +1,12 @@
 {
-    "type": "origins:modify_damage_dealt",
+    "type": "origins:modify_projectile_damage",
     "damage_condition": {
         "type": "origins:projectile"
     },
     "modifier": {
         "operation": "multiply_base",
-        "value": 1.25
-    }
+        "value": 0.25
+    },
+    "name": "Sharpshooter",
+    "description": "You deal 25% extra damage with projectiles."
 }

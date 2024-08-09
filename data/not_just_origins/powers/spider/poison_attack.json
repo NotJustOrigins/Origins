@@ -21,5 +21,7 @@
     "hud_render": {
         "should_render": false,
         "bar_index": 5
-    }
+    },
+    "name": "Venomous",
+    "description": "When you attack an entity you apply Poison III for 5 seconds."
 }

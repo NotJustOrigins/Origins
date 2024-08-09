@@ -1,9 +1,11 @@
 {
-    "type": "origins:attribute",
-    "modifier": {
-      "name": "Natural Armor health bonus",
-      "attribute": "minecraft:generic.armor",
-      "value": 4.0,
-      "operation": "addition"
-    }
-  }
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 4.0,
+    "operation": "addition"
+  },
+  "name": "Turtle Shell",
+  "description": "Your shell gives you a natural armor."
+}

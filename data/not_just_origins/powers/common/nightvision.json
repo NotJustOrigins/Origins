@@ -1,3 +1,4 @@
 {
-    "type": "origins:night_vision"
+    "type": "origins:night_vision",
+    "hidden": true
 }

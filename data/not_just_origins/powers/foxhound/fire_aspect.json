@@ -4,5 +4,7 @@
         "type": "origins:set_on_fire",
         "duration": 8
     },
-    "cooldown": 20
+    "cooldown": 20,
+    "name": "Fiery Touch",
+    "description": "Anything you hit will ignite for 8 seconds."
 }

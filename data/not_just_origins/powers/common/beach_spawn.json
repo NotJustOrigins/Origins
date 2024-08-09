@@ -3,5 +3,5 @@
     "dimension": "minecraft:overworld",
     "biome": "minecraft:beach",
     "name": "Beach Spawn",
-    "description": "Description"
+    "description": "You spawn on a beach."
 }
